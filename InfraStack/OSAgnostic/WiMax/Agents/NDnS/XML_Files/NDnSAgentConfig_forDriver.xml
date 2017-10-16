@@ -1,9 +1,9 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!--This is an Intel WiMAX configuration file. Please do not change this file. Changing the file might prevent connecting to the WiMAX network. -->
 <InternalData>
 	<WiMAXSupp>
 		<Operator>
-			<xclear>
+			<cr>
 				<NetworkParameters>
 					<H_NSP>
 						<x0>
@@ -13,53 +13,17 @@
 					<CAPL>
 						<Entries>
 							<x0>
-								<NAP_ID>2</NAP_ID>
+								<NAP_ID>1aa</NAP_ID>
 								<Priority>1</Priority>
 								<ChPlanRefIds>
 									<x0>
-										<RefId>AB</RefId>
+										<RefId>A</RefId>
 									</x0>
 									<x1>
-										<RefId>CD</RefId>
+										<RefId>B</RefId>
 									</x1>
-									<x2>
-										<RefId>EF</RefId>
-									</x2>
-									<x3>
-										<RefId>HG</RefId>
-									</x3>
-									<x4>
-										<RefId>BC</RefId>
-									</x4>
-									<x5>
-										<RefId>FH</RefId>
-									</x5>
 								</ChPlanRefIds>
 							</x0>
-							<x1>
-								<NAP_ID>4</NAP_ID>
-								<Priority>2</Priority>
-								<ChPlanRefIds>
-									<x0>
-										<RefId>AB</RefId>
-									</x0>
-									<x1>
-										<RefId>CD</RefId>
-									</x1>
-									<x2>
-										<RefId>EF</RefId>
-									</x2>
-									<x3>
-										<RefId>HG</RefId>
-									</x3>
-									<x4>
-										<RefId>BC</RefId>
-									</x4>
-									<x5>
-										<RefId>FH</RefId>
-									</x5>
-								</ChPlanRefIds>
-							</x1>
 						</Entries>
 						<Any>ListFirst</Any>
 						<SelectPolicy>Strict</SelectPolicy>
@@ -72,77 +36,33 @@
 					<ChannelPlan>
 						<Entries>
 							<x0>
-								<Id>AB</Id>
-								<FirstFreq>2508500</FirstFreq>
-								<LastFreq>2528500</LastFreq>
+								<Id>A</Id>
+								<FirstFreq>3650000</FirstFreq>
+								<LastFreq>3660000</LastFreq>
 								<NextFreqStep>10000</NextFreqStep>
-								<Preambles>ffffffffffffffffffffffffffffff</Preambles>
+								<Preambles>010000000000000000000000000000</Preambles>
 								<BW>10000</BW>
 								<FFTSize>1024</FFTSize>
 								<DuplexMode>1</DuplexMode>
 								<TTL>0</TTL>
 							</x0>
 							<x1>
-								<Id>CD</Id>
-								<FirstFreq>2541500</FirstFreq>
-								<LastFreq>2561500</LastFreq>
+								<Id>B</Id>
+								<FirstFreq>3655000</FirstFreq>
+								<LastFreq>3665000</LastFreq>
 								<NextFreqStep>10000</NextFreqStep>
-								<Preambles>ffffffffffffffffffffffffffffff</Preambles>
+								<Preambles>010000000000000000000000000000</Preambles>
 								<BW>10000</BW>
 								<FFTSize>1024</FFTSize>
 								<DuplexMode>1</DuplexMode>
 								<TTL>0</TTL>
 							</x1>
-							<x2>
-								<Id>EF</Id>
-								<FirstFreq>2630500</FirstFreq>
-								<LastFreq>2650500</LastFreq>
-								<NextFreqStep>10000</NextFreqStep>
-								<Preambles>ffffffffffffffffffffffffffffff</Preambles>
-								<BW>10000</BW>
-								<FFTSize>1024</FFTSize>
-								<DuplexMode>1</DuplexMode>
-								<TTL>0</TTL>
-							</x2>
-							<x3>
-								<Id>HG</Id>
-								<FirstFreq>2663500</FirstFreq>
-								<LastFreq>2683500</LastFreq>
-								<NextFreqStep>10000</NextFreqStep>
-								<Preambles>ffffffffffffffffffffffffffffff</Preambles>
-								<BW>10000</BW>
-								<FFTSize>1024</FFTSize>
-								<DuplexMode>1</DuplexMode>
-								<TTL>0</TTL>
-							</x3>
-							<x4>
-								<Id>BC</Id>
-								<FirstFreq>2525000</FirstFreq>
-								<LastFreq>2545000</LastFreq>
-								<NextFreqStep>10000</NextFreqStep>
-								<Preambles>ffffffffffffffffffffffffffffff</Preambles>
-								<BW>10000</BW>
-								<FFTSize>1024</FFTSize>
-								<DuplexMode>1</DuplexMode>
-								<TTL>0</TTL>
-							</x4>
-							<x5>
-								<Id>FH</Id>
-								<FirstFreq>2647000</FirstFreq>
-								<LastFreq>2667000</LastFreq>
-								<NextFreqStep>10000</NextFreqStep>
-								<Preambles>ffffffffffffffffffffffffffffff</Preambles>
-								<BW>10000</BW>
-								<FFTSize>1024</FFTSize>
-								<DuplexMode>1</DuplexMode>
-								<TTL>0</TTL>
-							</x5>
 						</Entries>
 						<BW>-1</BW>
 						<FFTSize>-1</FFTSize>
 						<DuplexMode>1</DuplexMode>
 					</ChannelPlan>
-					<OperatorName>CLEAR</OperatorName>
+					<OperatorName>Council-Rock</OperatorName>
 					<PollingInterval>-1</PollingInterval>
 					<PollingAttempts>10</PollingAttempts>
 					<ServerID></ServerID>
@@ -159,7 +79,7 @@
 								<USER_IDENTITY></USER_IDENTITY>
 								<PROVISIONED_PSEUDO_IDENTITY></PROVISIONED_PSEUDO_IDENTITY>
 								<PASSWORD></PASSWORD>
-								<REALM>welcome.clearwire-wmx.net</REALM>
+								<REALM></REALM>
 								<USE_PRIVACY>False</USE_PRIVACY>
 								<ENCAPS>-1</ENCAPS>
 								<VFY_SERVER_REALM>False</VFY_SERVER_REALM>
@@ -184,16 +104,16 @@
 				<Contacts>
 					<x0>
 						<Type>0</Type>
-						<URI>http://www.clear.com/help.php</URI>
-						<Text>clearwire Technical Support</Text>
+						<URI>www.concil-rock.com</URI>
+						<Text>council rock Technical Support</Text>
 					</x0>
 					<x1>
 						<Type>1</Type>
-						<URI>http://www.clear.com/shop/mobile_internet.php</URI>
-						<Text>clearwire Subscription Portal</Text>
+						<URI>www.concil-rock.com</URI>
+						<Text>council rock Subscription Portal</Text>
 					</x1>
 				</Contacts>
-			</xclear>
+			</cr>
 			<xSprintViaCLWR>
 				<NetworkParameters>
 					<H_NSP>
@@ -208,23 +128,11 @@
 								<Priority>1</Priority>
 								<ChPlanRefIds>
 									<x0>
-										<RefId>AB</RefId>
+										<RefId>A</RefId>
 									</x0>
 									<x1>
-										<RefId>CD</RefId>
+										<RefId>B</RefId>
 									</x1>
-									<x2>
-										<RefId>EF</RefId>
-									</x2>
-									<x3>
-										<RefId>HG</RefId>
-									</x3>
-									<x4>
-										<RefId>BC</RefId>
-									</x4>
-									<x5>
-										<RefId>FH</RefId>
-									</x5>
 								</ChPlanRefIds>
 							</x0>
 							<x1>
@@ -232,23 +140,11 @@
 								<Priority>2</Priority>
 								<ChPlanRefIds>
 									<x0>
-										<RefId>AB</RefId>
+										<RefId>A</RefId>
 									</x0>
 									<x1>
-										<RefId>CD</RefId>
+										<RefId>B</RefId>
 									</x1>
-									<x2>
-										<RefId>EF</RefId>
-									</x2>
-									<x3>
-										<RefId>HG</RefId>
-									</x3>
-									<x4>
-										<RefId>BC</RefId>
-									</x4>
-									<x5>
-										<RefId>FH</RefId>
-									</x5>
 								</ChPlanRefIds>
 							</x1>
 						</Entries>
@@ -263,77 +159,33 @@
 					<ChannelPlan>
 						<Entries>
 							<x0>
-								<Id>AB</Id>
-								<FirstFreq>2508500</FirstFreq>
-								<LastFreq>2528500</LastFreq>
+								<Id>A</Id>
+								<FirstFreq>3650000</FirstFreq>
+								<LastFreq>3660000</LastFreq>
 								<NextFreqStep>10000</NextFreqStep>
-								<Preambles>ffffffffffffffffffffffffffffff</Preambles>
+								<Preambles>000000000000000000000000000000</Preambles>
 								<BW>10000</BW>
 								<FFTSize>1024</FFTSize>
 								<DuplexMode>1</DuplexMode>
 								<TTL>0</TTL>
 							</x0>
 							<x1>
-								<Id>CD</Id>
-								<FirstFreq>2541500</FirstFreq>
-								<LastFreq>2561500</LastFreq>
+								<Id>B</Id>
+								<FirstFreq>3655000</FirstFreq>
+								<LastFreq>3665000</LastFreq>
 								<NextFreqStep>10000</NextFreqStep>
-								<Preambles>ffffffffffffffffffffffffffffff</Preambles>
+								<Preambles>000000000000000000000000000000</Preambles>
 								<BW>10000</BW>
 								<FFTSize>1024</FFTSize>
 								<DuplexMode>1</DuplexMode>
 								<TTL>0</TTL>
 							</x1>
-							<x2>
-								<Id>EF</Id>
-								<FirstFreq>2630500</FirstFreq>
-								<LastFreq>2650500</LastFreq>
-								<NextFreqStep>10000</NextFreqStep>
-								<Preambles>ffffffffffffffffffffffffffffff</Preambles>
-								<BW>10000</BW>
-								<FFTSize>1024</FFTSize>
-								<DuplexMode>1</DuplexMode>
-								<TTL>0</TTL>
-							</x2>
-							<x3>
-								<Id>HG</Id>
-								<FirstFreq>2663500</FirstFreq>
-								<LastFreq>2683500</LastFreq>
-								<NextFreqStep>10000</NextFreqStep>
-								<Preambles>ffffffffffffffffffffffffffffff</Preambles>
-								<BW>10000</BW>
-								<FFTSize>1024</FFTSize>
-								<DuplexMode>1</DuplexMode>
-								<TTL>0</TTL>
-							</x3>
-							<x4>
-								<Id>BC</Id>
-								<FirstFreq>2525000</FirstFreq>
-								<LastFreq>2545000</LastFreq>
-								<NextFreqStep>10000</NextFreqStep>
-								<Preambles>ffffffffffffffffffffffffffffff</Preambles>
-								<BW>10000</BW>
-								<FFTSize>1024</FFTSize>
-								<DuplexMode>1</DuplexMode>
-								<TTL>0</TTL>
-							</x4>
-							<x5>
-								<Id>FH</Id>
-								<FirstFreq>2647000</FirstFreq>
-								<LastFreq>2667000</LastFreq>
-								<NextFreqStep>10000</NextFreqStep>
-								<Preambles>ffffffffffffffffffffffffffffff</Preambles>
-								<BW>10000</BW>
-								<FFTSize>1024</FFTSize>
-								<DuplexMode>1</DuplexMode>
-								<TTL>0</TTL>
-							</x5>
 						</Entries>
 						<BW>-1</BW>
 						<FFTSize>-1</FFTSize>
 						<DuplexMode>1</DuplexMode>
 					</ChannelPlan>
-					<OperatorName>SPRINT</OperatorName>
+					<OperatorName>Council-Rock</OperatorName>
 					<PollingInterval>-1</PollingInterval>
 					<PollingAttempts>10</PollingAttempts>
 					<ServerID></ServerID>
@@ -344,7 +196,7 @@
 						<Activated>False</Activated>
 						<EAP>
 							<x0>
-								<METHOD_TYPE>EAP_TLS</METHOD_TYPE>
+								<METHOD_TYPE></METHOD_TYPE>
 								<VENDOR_ID>13</VENDOR_ID>
 								<VENDOR_TYPE>13</VENDOR_TYPE>
 								<USER_IDENTITY></USER_IDENTITY>
