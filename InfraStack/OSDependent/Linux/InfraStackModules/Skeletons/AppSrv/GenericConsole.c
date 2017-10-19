@@ -35,6 +35,7 @@ POSSIBILITY OF SUCH DAMAGE.
 #include <dirent.h>
 #include <ctype.h>
 #include <execinfo.h>
+#include <signal.h>
 
 #define __USE_GNU
 #include <ucontext.h>
